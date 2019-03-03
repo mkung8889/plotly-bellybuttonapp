@@ -23,9 +23,7 @@ function buildCharts(sample) {
     var trace1 = {
       "values": data.sample_values.slice(0,10),
       "labels": data.otu_ids.slice(0,10),
-      // figure out the correct hover stuff, currently hover is incorrect, needs otu_labels 
-      // "hoverinfo": 'label+value+percent',
-      // 'hoverinfo': "text",
+      'hovertext': data.otu_labels,
       "type": "pie"
     }
     Plotly.newPlot("pie", [trace1])
