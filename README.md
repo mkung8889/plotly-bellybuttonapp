@@ -6,10 +6,10 @@ This app uses Plot.ly to present data of belly button diverity.
 App is a dashboard showing metadata, pie chart, and bubble chart.
 
 Technologies used:
--JavaScript
--Plot.ly
--SQLite
--HTML
+<br>-JavaScript
+<br>-Plot.ly
+<br>-SQLite
+<br>-HTML
 
 Screenshot:
 ![Screenshot of App](screenshot/screenshot_app.png)
